@@ -1,1 +1,2 @@
 1.InitGitHubRepo
+2.FromLocalRepoWrite
