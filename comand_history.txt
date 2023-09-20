@@ -1,0 +1,76 @@
+1  ls -l
+    2  sudo ./VBoxLinuxAdditions.run
+    3  sudo apt install gcc make perl
+    4  cd
+    5  sudo reboot
+    6  ip a
+    7  ls
+    8  cd
+    9  ls
+   10  cd Документы
+   11  ды
+   12  ls
+   13  cd pass
+   14  nano p.txt
+   15  cd
+   16  cd Документы
+   17  cd pass
+   18  nano p.txt
+   19  git --version
+   20  git config --global user.name serjvaleev
+   21  git config --global user.email Gabryelf@yandex.ru
+   22  git config --global color.ui auto
+   23  git config --list
+   24  ls
+   25  mkdir repo
+   26  ls
+   27  cd repo
+   28  git init
+   29  touch read.txt
+   30  ls
+   31  nano read.txt
+   32  git add read.txt
+   33  git commit
+   34  git log
+   35  nano read.txt
+   36  git add read.txt
+   37  git commit
+   38  git log
+   39  nano read.txt
+   40  git commit -am 'save git command'
+   41  git log
+   42  git log --oneline
+   43  nano read.txt
+   44  git commit -am 'progress command to repo'
+   45  git log --oneline
+   46  git reset 1ddfda5
+   47  git reset --hard 1ddfda5
+   48  nano read.txt
+   49  git refflog
+   50  git reflog
+   51  git reset --hard 1ddfda5
+   52  nano read.txt
+   53  git reflog
+   54  nano read.txt
+   55  git reset --hard 1ddfda5
+   56  nano read.txt
+   57  ssh-keygen -t rsa -b 4096
+   58  ls .ssh
+   59  cd
+   60  ls .ssh
+   61  cat .ssh/id_rsa.pub
+   62  git clone git@github.com:Gabryelf/MyControlWork.git githubproj
+   63  cd githubproj
+   64  touch gitstart.txt
+   65  nano gitstart.txt
+   66  git add gitstart.txt
+   67  git commit -am 'Add first commit'
+   68  git status
+   69  git log --oneline
+   70  git push
+   71  git pull
+   72  nano gitstart.txt
+   73  ls
+   74  cd githubproj
+   75  nano comand_history.txt
+   76  history
